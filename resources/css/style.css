@@ -6,22 +6,22 @@ html {
   opacity: 0.9;
 }
 
-/* Header */
+/* HEADER Container */
 
 .headercontainer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
-}
-
-header {
+  background-color: black;
   height: 69px;
   width: 100%;
   position: fixed;
-  align-items: center;
+  top: 0px;
   border-bottom: 1px solid seashell;
   z-index: 1;
 }
+
 
 .logo img {
   height: 50px;
@@ -36,21 +36,20 @@ nav a {
   position: inline-block;
 }
 
-/* CONTENT CONTAINER */
+/* CONTENT Container */
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
 /* 1. Mission statement */
 
-.mission-statement {
+#mission-statement {
   position: relative;
-  top: 70px;
+  top: 50px;
   display: flex;
   height: 700px;
   width: 1200px;
@@ -63,4 +62,47 @@ nav a {
 .mission-text {
   background-color: black;
   width: 100%;
+}
+
+/* 2. Tea store */
+#tea-store {
+  position: relative;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:1000px;
+}
+
+#tea-byline {
+  position: relative;
+  top: -30px;
+}
+
+#tea-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
+  align-content: space-around;
+
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.tea span {
+  padding-top: 10px;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
 }
