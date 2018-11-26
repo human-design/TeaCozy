@@ -151,3 +151,28 @@ nav a {
 .location span {
   display: block;
 }
+
+/* Footer */
+footer {
+  position: relative;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  length: 200px;
+  text-align: center;
+}
+
+/* Copyright */
+
+.copyright {
+  position: relative;
+  top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 20px;
+  align-items: center;
+  height: 100px;
+  width: 1200px;
+  font-size: 22px;
+}
